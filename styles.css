@@ -1,7 +1,6 @@
-.grids{
-
+.grids {
     display: grid;
     gap: 30px;
-    grid-template-columns: 500px 600px 500px;
-    grid-template-rows: 500px 500px 500px ;
+    grid-template-columns: repeat(3, 1fr); /* Three columns of 1 fraction everything will be equal in size*/
+    grid-template-rows: repeat(3, 1fr);  /* same as column instead rows*/
 }
